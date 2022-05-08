@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>class_component</title>
+</head>
+
+<body>
+    <div id="test"></div>
+    <script type="text/javascript" src="../js/react.development.js"></script>
+    <script type="text/javascript" src="../js/react-dom.development.js"></script>
+    <script type="text/javascript" src="../js/babel.min.js"></script>
+
+    <script type="text/babel"> 
+        class DemoClass extends React.Component {
+            render() {
+                return <div><h1>Hello Jack</h1></div>
+            }
+        }
+
+        ReactDOM.render(<DemoClass />, document.getElementById('test'))
+    </script>
+</body>
+
+</html>
